@@ -1,0 +1,45 @@
+.form {
+  width: 360px;
+  /* height: 72px; */
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.delay {
+  display: flex;
+  flex-direction: column;
+}
+
+.delay input {
+  height: 40px;
+}
+
+fieldset {
+  display: flex;
+  /* flex-direction: column; */
+}
+
+.radios {
+  display: flex;
+  width: 104px;
+  gap: 10px;
+}
+
+button {
+  width: 360px;
+  height: 40px;
+  border: 0;
+  border-radius: 8px;
+  background-color: #4e75ff;
+  color: #fff;
+  transition: background-color cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+button:hover {
+  background-color: #6c8cff;
+}
+button:disabled {
+  background-color: #cfcfcf;
+  cursor: default;
+}
